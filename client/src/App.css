@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  
+}
+.App {
+  text-align: center;
+
+}
+.im1{
+  /* border: 1px solid black; */
+  height: 250px;
+  overflow: hidden;
+}
+.im1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* filter: blur(2px); */
+}
+#todo{
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 200px;
+  font-size: 90px;
+  font-weight: 800;
+  color: rgb(98, 95, 95);
+}
+.form{
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 500px;
+
+  height: 70px;
+  margin-bottom: 70px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#name{
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  padding: 5px;
+  outline: none;
+  font-size: 20px;
+}
+#add{
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+.task {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 70px;
+  justify-content: center; /* Center the content horizontally */
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   /* Adjust the width to leave space for the form */
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+#taskhead{
+ 
+  font-size: 25px;
+}
+#delete{
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
